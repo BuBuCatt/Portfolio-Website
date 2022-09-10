@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>My Portfolio</title>
+    <!-- VIEWPORT   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--superslides css from github-->
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+
+    <!--owl carousal-->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ 
+
+   
+</head>
+
+<body>
+
+    <!-- add loading gif. -->
+    <div class="loader">
+
+        <div class="inner"></div>
+
+    </div>
+
+
+    <!--all slides element container -->
+    <div id="slides">
+        <!-- overlay or covering stuff-->
+        <div class="overlay"></div>
+        <!--background picture on slides  -->
+        <div class="slides-container">
+          <img src="img/slide1.jpg" alt="">
+          <img src="img/slide2.jpg" alt="">
+          <img src="img/slide3.jpg" alt="">
+        </div>
+
+        <!--message on slide-->
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">KRISTEN HSU</p>
+                <p class="sub typed"></p>
+            </div>
+
+
+
+
+        </div>
+
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+
+      </div>
+    
+      <!-- bootsrap nav menu -->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kristen Hsu</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+<!--sectione about me// add a more space for web page at the bottom-->
+    <div id="about" class="section">
+        <div class="container">
+        <!--bootstrap grid check w3-->
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="aboutImg"src="img/aboutme.JPG" width="400px">
+
+                </div>
+                <!-- bootstrap will automatically formatting and resize the web space -->
+                <div class="col-md-7">
+
+                    <h4>My name is Kristen Hsu</h4>
+
+                    <p>Hi there! I'm Kristen Hsu from Kaohsiung, Taiwan. I currently studying master of Computer Science at Seattle University, 
+                        looking for an internship and a new grad position.
+                        I worked in a multinational FMCG company for many years and had some clinical research experience.
+                        Also, I have experience programming in many languages, such as C++, Java,  Python, and I am learning front-end languages so far.
+                    </p>
+                    <p>I enjoy cooking, traveling and hiking in my leisure time. </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+ 
+
+    </div>
+
+
+<!-- skill section and description-->
+
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+        <!--bootstrap grid check w3-->
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of my proficiency in each skill</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="skill">
+                        <span class="chart" data-percent="93">
+                            <span class="percent">93</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>PYTHON</h4>
+                        <p>Used in some of my projects</p>
+
+
+                    </div>
+
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="94">
+                            <span class="percent">94</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>JAVA</h4>
+                        <p>Used in some of back-end projects</p>
+
+
+                    </div>
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>JAVASCRIPT</h4>
+                        <p>Used in most of my web based projects</p>
+
+
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>AWS</h4>
+                        <p>Used in build my web server</p>
+
+
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="94">
+                            <span class="percent">94</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>HTML/CSS</h4>
+                        <p>Used in my web based projects</p>
+
+
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>C++</h4>
+                        <p>Used in some projects</p>
+
+
+                    </div>
+
+
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="95">
+                            <span class="percent">95</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>MYSQL</h4>
+                        <p>Used in my database projects</p>
+
+
+                    </div>
+
+
+                
+                </div>
+
+
+            </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    <div id="states" class="statesSection section">
+        <div class="container">
+            <!--bootstrap grid check w3-->
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div  class="squareItem">
+                        
+                        <div class="squareInnerContainer">
+
+                            <div class="squareIcon">
+                                <i class="fa fa-laptop"></i>
+
+                            </div>
+
+                            <div class="squareContent">
+                                <h2>15+</h2>
+                                <h3>Projects</h3>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>    
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div  class="squareItem">
+                        
+                        <div class="squareInnerContainer">
+
+                            <div class="squareIcon">
+                                <i class="fa fa-briefcase"></i>
+
+                            </div>
+
+                            <div class="squareContent">
+                                <h2>4+ Yrs</h2>
+                                <h3>Working Experience</h3>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+    
+    
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+
+                <div  class="squareItem">
+                    
+                    <div class="squareInnerContainer">
+
+                        <div class="squareIcon">
+                            <i class="fa fa-globe"></i>
+
+                        </div>
+
+                        <div class="squareContent">
+                            <h2>4</h2>
+                            <h3>Speaking Languages</h3>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+
+                <div  class="squareItem">
+                    
+                    <div class="squareInnerContainer">
+
+                        <div class="squareIcon">
+                            <i class="fa fa-robot"></i>
+
+                        </div>
+
+                        <div class="squareContent">
+                            <h2>Intern</h2>
+                            <h3>Seeking</h3>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+           
+    
+        </div>
+    
+    
+    </div>
+
+
+    <!-- contact section -->
+    <div id="contact" class="contactSection section">
+
+        <div class="col-md-12 text-center">
+
+            <p class="subHeading">Like what you see?</p>
+            <h2 class="subText">I'd love to hear from you! </h2>
+            <!-- setting the email box  -->
+            <a href="mailTo:Bubu8240@gmail.com" class="contactButton">GET IN TOUCH!</a>
+
+
+        </div>
+
+    </div>
+
+    <!-- porfolio / projects -->
+
+    <div id="portfolio" class="section" >
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+
+                    <h2>PORTFOLIO</h2>
+
+                </div>
+
+                <div class="filter">
+                    <!-- button under portfolio -->
+                    <ul id="filters">
+
+                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                        <li><a href="#" data-filter=".apps">Apps</a></li>
+                        <li><a href="#" data-filter=".me">Me</a></li>
+                        <li><a href="#" data-filter=".websites">Websites</a></li>
+
+                    </ul>
+
+
+
+                </div>
+
+                <div class="itemsContainer">
+
+
+                    <ul class="items">
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <!-- overlay -->
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 2 -->
+                        <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 3 -->
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 4 -->
+                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 5 -->
+                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+                                <div class="imageOverlay"></div>
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 6 -->
+
+                        <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 7 -->
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+                        <!-- 8 -->
+                        <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 9 -->
+
+                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 10 -->
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 11 -->
+
+                        <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+
+                                    <a href="" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+                        <!-- 12 -->
+
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div  class="item">
+
+                                <img src="img/portfolio/thumnails/cat-square1.jpg">
+
+                                <div class="icons">
+
+                                    <a href="img/portfolio/cat.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute cat">
+
+                                        <i class="fa fa-search"></i>
+
+                                    
+                                      </a>
+                                      <!-- add ur projects url here -->
+                                    <a href="https://google.com" target="_blank" class="projectLink">
+
+                                        <i class="fa fa-link"></i>
+
+                                    
+                                    </a>
+
+
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+
+
+                            </div>
+
+
+                        </li>
+
+<!-- add picture at project part -->
+
+
+                    </ul>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- copyright  -->
+
+    <div class="copyrightSection">
+
+        <div class="col-md-12 text-center">
+            <!-- @ -->
+            <p>&copy; Copyright Kristen Hsu 2022</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript"  src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>  
