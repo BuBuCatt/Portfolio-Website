@@ -1,7 +1,7 @@
 /* style of backgorund cover */
 /* z-index : Because the image has a z-index of -1, 
 it will be placed behind the heading. 
-text-align: 文字in center positon */
+text-align: in center positon */
 
 /* There are five different position values:
     static :positioned according to the normal flow of the page.
@@ -97,6 +97,8 @@ new space for web  padding  */
 /* resize the img */
 .aboutImg{
     max-width: 100%;
+    border: 5px solid rgb(75, 75, 75);
+    border-radius: 20px;
 }
 
 /* skill section  */
