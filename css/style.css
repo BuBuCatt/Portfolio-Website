@@ -101,6 +101,10 @@ new space for web  padding  */
     border-radius: 20px;
 }
 
+.col-md-7 p{
+    font-size: 15px;
+}
+
 /* skill section  */
 
 .skillsSection{
