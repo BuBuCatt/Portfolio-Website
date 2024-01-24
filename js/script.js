@@ -31,12 +31,12 @@ $(document).ready(function(){
     $('#slides').superslides({
         animation:'fade',//photo change effection 
         play:5000 ,//auto change backgoround every 5 sec
-        pagination:false //分頁
+        pagination:false 
     });
 
     // subtitle for webpage 
     var typed = new Typed(".typed", {
-        strings: ["Software Engineer.", "Web Developer.", "Looking for internship.", "Foodie."],
+        strings: ["Software Engineer.", "Web Developer.", "Looking for internship.","Looking for co-op .", "Foodie."],
         typeSpeed: 70,
         loop: true,
         startDelay:1000,
